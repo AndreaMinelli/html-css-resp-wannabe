@@ -136,3 +136,30 @@ img {
         width: 100%;
     }
 }
+
+/* Soluzione Responsive inferiori ai 576px */
+
+@media screen and (max-width: 576px) {
+    .row {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .row .col {
+        width: 100%;
+    }
+
+    .row .col:not(:last-child) {
+        margin-bottom: 80px;
+    }
+
+    .steps {
+        margin-bottom: 0;
+    }
+
+    .why-us {
+        background-color: rgb(34, 34, 34);
+        padding: 3rem 0;
+        margin-bottom: 0;
+    }
+}
