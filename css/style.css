@@ -129,13 +129,25 @@ img {
     SOLUZIONE RESPONSIVE
  ************************************************/
 
-/* Soluzione Responsive inferiori ai 768px */
+/* Soluzione bonus fino a 1160px */
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1160px) {
     .container {
         width: 100%;
     }
 }
+
+/* Soluzione Responsive inferiori ai 768px */
+
+/* ! ISTRUZIONI NON PIU NECESSARIE CON BONUS */
+
+/* @media screen and (max-width: 768px) {
+    .container {
+        width: 100%;
+    }
+} */
+
+/* ! ********************** */
 
 /* Soluzione Responsive inferiori ai 576px */
 
